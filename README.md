@@ -2,7 +2,7 @@
 
 install cert-manager,helm3,rancher
 ```
-kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v0.14.3/cert-manager.yaml
+kubectl apply --validate=false -f https://github.com/jetstack/cert-manager/releases/download/v1.1.0/cert-manager.yaml
 curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash
 helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 helm repo update
