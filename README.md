@@ -17,7 +17,7 @@ modify deploy cattle-cluster-agent
 kubectl edit deploy cattle-cluster-agent -n cattle-system
 ```
 
-add
+add below `dnsPolicy: ClusterFirst`
 ```
 hostNetwork: true
 ```
